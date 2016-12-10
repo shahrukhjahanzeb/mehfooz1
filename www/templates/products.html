@@ -1,0 +1,25 @@
+<ion-view view-title="products">
+<ion-content>
+
+
+<div class="list">
+<label class="item item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text"
+    placeholder="Search"
+    ng-model="query.q",
+    ng-change="loadProducts()">
+  </label>
+
+  <a ng-repeat="item in products"
+    href="#/app/products/{{item.id}}"
+    class="item item-thumbnail-left">
+    
+    <img ng-src="{{item.images[0]}}" />
+    <div class="product_name">{{ item.name }}</div>
+    <div class="product_price">$ {{ item.price }}</div>
+    
+  </a>
+</div>
+</ion-content>
+</ion-view>

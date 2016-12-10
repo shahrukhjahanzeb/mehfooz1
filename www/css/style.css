@@ -1,0 +1,57 @@
+/* Empty. Add your own CSS if you like */
+ion-content {
+	background-color: #ECECEC;
+}
+
+button {
+	border:0px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.bar.bar-darkblue {
+	background-color: #38464F;
+	border: 0px;
+	color: #FFF;
+}
+.bar.bar-red {
+	background-color: #E69880;
+	border: 0px;
+	color: #FFF;
+}
+.bar .title {
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+.bar.bar-darkblue .button {
+	color: #FFF;
+	border:0px;
+}
+.button {
+	border-radius: 1px !important;
+}
+.button.button-blue {
+	background-color: #7990A4;
+	border:0px;
+}
+
+.button.button-red {
+	background-color: #E69880;
+	border: 0px;
+	color: white !important;
+}
+
+h1,h2,h3,h4,h5 {
+	/*font-family: "Montserrat";*/
+}
+
+.product_name {
+	font-weight: bold;
+	font-size:18px;
+}
+
+.product_price {
+	font-weight: bold;
+	text-align: right;
+	font-size:24px;
+}
